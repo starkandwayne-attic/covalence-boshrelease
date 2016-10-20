@@ -1,1 +1,41 @@
---- {}
+---
+python/click-6.6.tar.gz:
+  object_id: 4d1db9ba-2cf1-4a62-a878-4d3a22e18e39
+  sha: 46ad5b97b5c1899c37e11b652f8f52f5f0b29aef
+  size: 283420
+python/Flask-0.11.1-py2.py3-none-any.whl:
+  object_id: 7d58e116-3ed3-4608-98e5-fd6bf5402977
+  sha: 7ef20343963db01e8931afda74e57dee565c6140
+  size: 80615
+python/itsdangerous-0.24.tar.gz:
+  object_id: a0b734ff-cb95-427f-94e4-3dc7458abbc5
+  sha: 0a6ae9c20cd72e89d75314ebc7b0f390f93e6a0d
+  size: 46541
+python/Jinja2-2.8-py2.py3-none-any.whl:
+  object_id: 29c13c42-cfb7-4796-ad1c-a82511ea754a
+  sha: 7ed6155b057d484586f1bf52fd5f74ae6104bbe9
+  size: 263888
+python/MarkupSafe-0.23.tar.gz:
+  object_id: 8962c54b-4def-4b5c-9c01-a747fe6f3d6f
+  sha: cd5c22acf6dd69046d6cb6a3920d84ea66bdf62a
+  size: 13416
+python/pip-8.1.2-py2.py3-none-any.whl:
+  object_id: ac8fa5e6-598c-4f95-b023-d02bf05e3c30
+  sha: 112a41bf8e06c41420b105c5f702ecc7f53ab6c4
+  size: 1198961
+python/Python-2.7.10.tgz:
+  object_id: 28b31efd-c90a-40ee-bdfe-70d880303871
+  sha: 49089f1f6ab445dc8ace97beeb276095c4c8039b
+  size: 16768806
+python/requests-2.11.1-py2.py3-none-any.whl:
+  object_id: 19664e2f-d101-43e8-885b-3ec899033c41
+  sha: 721d9ab241added22bebe4514194a87cb69880bf
+  size: 514827
+python/setuptools-28.6.0-py2.py3-none-any.whl:
+  object_id: 69abe52e-11b6-45ae-9c98-f4992c8383ea
+  sha: e305a5a97aef274e639207fe2a87d74f14431c8d
+  size: 471924
+python/Werkzeug-0.11.11-py2.py3-none-any.whl:
+  object_id: ac2f0566-ae7b-4fb4-a003-7b93c6acf7d7
+  sha: ecc3c9dc37f284bb0dfe30f33e0c7c8a825b3bfa
+  size: 306997

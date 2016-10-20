@@ -1,0 +1,5 @@
+check process covalence_agent
+  with pidfile /var/vcap/sys/run/covalence_agent/covalence_agent.pid
+  start program "/var/vcap/jobs/covalence_agent/bin/monit_debugger covalence_agent_ctl '/var/vcap/jobs/covalence_agent/bin/ctl start'"
+  stop program "/var/vcap/jobs/covalence_agent/bin/monit_debugger covalence_agent_ctl '/var/vcap/jobs/covalence_agent/bin/ctl stop'"
+  group vcap

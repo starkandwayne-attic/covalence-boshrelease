@@ -1,0 +1,15 @@
+---
+name: covalence_api
+packages:
+- python
+templates:
+  bin/ctl: bin/ctl
+  bin/monit_debugger: bin/monit_debugger
+  data/properties.sh.erb: data/properties.sh
+  helpers/ctl_setup.sh: helpers/ctl_setup.sh
+  helpers/ctl_utils.sh: helpers/ctl_utils.sh
+
+properties:
+  covalence_api.port:
+    description: "Port that covalence API will run on."
+    default: "9201"

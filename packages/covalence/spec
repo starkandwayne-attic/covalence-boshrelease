@@ -1,0 +1,6 @@
+---
+name: covalence
+dependencies: 
+- python
+files:
+- covalence/**/*
