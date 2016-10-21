@@ -3,12 +3,16 @@ name: python
 dependencies: []
 files:
 - python/Python-2.7.10.tgz
-- python/pip-8.1.2-py2.py3-none-any.whl
+- python/pip-8.1.2.tar.gz
 - python/Flask-0.11.1-py2.py3-none-any.whl
 - python/Jinja2-2.8-py2.py3-none-any.whl
 - python/MarkupSafe-0.23.tar.gz
 - python/Werkzeug-0.11.11-py2.py3-none-any.whl
 - python/click-6.6.tar.gz
 - python/itsdangerous-0.24.tar.gz
-- python/setuptools-28.6.0-py2.py3-none-any.whl
+- python/setuptools-28.6.1.tar.gz
 - python/requests-2.11.1-py2.py3-none-any.whl
+- python/SQLAlchemy-1.0.15.tar.gz
+- python/Flask-SQLAlchemy-2.1.tar.gz
+- python/pysqlite-2.8.3.tar.gz
+- python/sqlite-autoconf-3070603.tar.gz

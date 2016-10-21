@@ -2,6 +2,7 @@
 name: covalence_api
 packages:
 - python
+- covalence
 templates:
   bin/ctl: bin/ctl
   bin/monit_debugger: bin/monit_debugger

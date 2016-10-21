@@ -17,7 +17,7 @@ case $1 in
     # store pid in $PIDFILE
     echo $$ > $PIDFILE
 
-    python /var/vcap/packages/covalence/api/api.py  >> $LOG_DIR/$JOB_NAME.log 2>&1
+    exec python /var/vcap/packages/covalence/covalence/agent/agent.py <%= p('covalence_agent.api_url') %> <%= p('covalence_agent.reporting_period') %>  >> $LOG_DIR/$JOB_NAME.log 2>&1
 
     ;;
 

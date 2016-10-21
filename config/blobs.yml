@@ -39,3 +39,27 @@ python/Werkzeug-0.11.11-py2.py3-none-any.whl:
   object_id: ac2f0566-ae7b-4fb4-a003-7b93c6acf7d7
   sha: ecc3c9dc37f284bb0dfe30f33e0c7c8a825b3bfa
   size: 306997
+python/pip-8.1.2.tar.gz:
+  object_id: e23ab0bb-05d7-469f-806b-84fb707ef649
+  sha: 1c13c247967ec5bee6de5fd104c5d78ba30951c7
+  size: 1140573
+python/setuptools-28.6.1.tar.gz:
+  object_id: b04806ab-2d48-4422-910f-c1f1c2321d2d
+  sha: 2dfb26807b0a18bec4d5e47abd89f7a28fc85e03
+  size: 644746
+python/SQLAlchemy-1.0.15.tar.gz:
+  object_id: 479d0084-885e-4485-84bf-5b26af0acee2
+  sha: b510372c8ee29772b85042dae4f3ba9a1e4d0e2e
+  size: 4776213
+python/Flask-SQLAlchemy-2.1.tar.gz:
+  object_id: de4f1b7e-6e92-4f63-a149-c96de014d808
+  sha: 3542d3f8f562efbff8cfdb4a884abba134bb7d2f
+  size: 95967
+python/pysqlite-2.8.3.tar.gz:
+  object_id: ec30ad1a-6c13-4d90-9ab9-eecacafc25eb
+  sha: 70e6ed5e771b1b584ffe23f93e3eb1ceef44895a
+  size: 80567
+python/sqlite-autoconf-3070603.tar.gz:
+  object_id: 78ead55a-f227-497d-b4c9-251db57d2e60
+  sha: a19e4496e2854e737d55465b77c87e775a362775
+  size: 1720314

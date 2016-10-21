@@ -2,6 +2,7 @@
 name: covalence_agent
 packages:
 - python
+- covalence
 templates:
   bin/ctl: bin/ctl
   bin/monit_debugger: bin/monit_debugger
@@ -12,10 +13,7 @@ templates:
 properties:
   covalence_agent.api_url:
     description: "URL on which the Covalence API is listening for agents."
-    default: "http://127.0.0.1"
-  covalence_agent.api_port:
-    description: "Port on which the Covalence API is listening for agents."
-    default: "9201"
+    default: "http://127.0.0.1:9201"
   covalence_agent.reporting_period:
     description: "Period to wait before reporting another status beacon to the API."
     default: "5"

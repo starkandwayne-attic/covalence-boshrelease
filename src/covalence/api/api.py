@@ -100,9 +100,7 @@ def get_connections():
 @api.route('/connections',methods=['POST'])
 def create_connections():
 
-    print request.data
     params = request.json
-    print params
     source = params['source']
     destination = params['destination']
 
@@ -128,6 +126,13 @@ def create_connections():
 
     return jsonify({"code":200,"message":"Resources created."})
 
+@api.route("/connections",methods=['DELETE'])
+def delete_connection():
+
+    params = request.json
+    uuid_to_delete = params["uuid"]
+    return jsonify({"code":200,"message":"Resource deleted."})
+
 @api.route('/',methods=['GET'])
 def index():
 
@@ -141,7 +146,10 @@ def login():
 
 
 if __name__ == "__main__":
+
+    if len(sys.argv) < 2:
+        print "Requires port number as argument." 
     
-    api.run(host='0.0.0.0',port=9201,debug=True)
+    api.run(host='0.0.0.0',port=int(sys.argv[1]),debug=True)
 
 
