@@ -12,9 +12,10 @@ update:
   update_watch_time: 1000-30000
 
 jobs:
-  - name: just_install_packages
+  - name: covalence
     networks:
       - name: covalence1
+        static_ips: (( static_ips 1))
 
 compilation:
   cloud_properties:
