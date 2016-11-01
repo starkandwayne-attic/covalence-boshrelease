@@ -3,4 +3,3 @@ name: covalence
 dependencies: []
 files:
 - covalence/*.tar.gz
-- covalence/main
