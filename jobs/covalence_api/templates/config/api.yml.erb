@@ -1,0 +1,12 @@
+<%
+  database_dsn = "postgres://#{ p('covalence_api.database.username') }:#{ p('covalence_api.database.password') }@#{ p('covalence_api.database.host') }:#{ p('covalence_api.database.port') }/#{ p('covalence_api.database.db') }?sslmode=disable"
+  if p('covalence_api.database.type') == "mysql"
+    database_dsn = "#{ p('covalence_api.database.username') }:#{ p('covalence_api.database.password') }@tcp(#{ p('covalence_api.database.host') }:#{ p('covalence_api.database.port') })/#{ p('covalence_api.database.db') }?sql_mode=POSTGRESQL&default_storage_engine=INNODB"
+  end
+%>
+
+---
+database_type: <%= p('covalence_api.database.type') %>
+database_dsn:  <%= database_dsn %>
+listen_addr: :<%= p('covalence_api.port') %>
+web_root: /var/vcap/packages/covalence/ui

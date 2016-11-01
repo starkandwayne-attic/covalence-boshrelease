@@ -4,24 +4,47 @@ meta:
 update:
   canaries: 1
   max_in_flight: 50
-  canary_watch_time: 1000-30000
-  update_watch_time: 1000-30000
+  canary_watch_time: 15000-120000
+  update_watch_time: 15000-120000
   serial: false
 
 jobs:
   - name: covalence
     templates:
-    - name: covalence_agent
+    - name: postgres
       release: covalence
     - name: covalence_api
       release: covalence
+    - name: covalence_agent
+      release: covalence
     instances: 1
-    persistent_disk: 0
+    persistent_disk: 3000
     resource_pool: small_z1
     networks: (( param "please set covalence networks" ))
 
 networks: (( param "please set networks" ))
 
 properties:
+  databases:
+    address: (( grab jobs.covalence.networks.covalence1.static_ips.[0] ))
+    databases:
+    - citext: true
+      name: covalencedb
+      tag: covalence
+    db_scheme: postgres
+    port: 5524
+    roles:
+    - name: covalenceadmin
+      password: admin
+      tag: admin
+
   covalence_agent:
     api_url: (( concat "http://" jobs.covalence.networks[0].static_ips[0] ":9201" ))
+  covalence_api:
+    database:
+      type: postgres
+      host: (( grab jobs.covalence.networks.covalence1.static_ips.[0] ))
+      port: 5524
+      username: (( grab properties.databases.roles.0.name ))
+      password: (( grab properties.databases.roles.0.password ))
+      db: (( grab properties.databases.databases.0.name ))

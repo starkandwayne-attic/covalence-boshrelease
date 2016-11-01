@@ -1,11 +1,11 @@
 ---
 name: covalence_api
 packages:
-- python
 - covalence
 templates:
   bin/ctl: bin/ctl
   bin/monit_debugger: bin/monit_debugger
+  config/api.yml.erb: config/api.yml
   data/properties.sh.erb: data/properties.sh
   helpers/ctl_setup.sh: helpers/ctl_setup.sh
   helpers/ctl_utils.sh: helpers/ctl_utils.sh
@@ -14,3 +14,16 @@ properties:
   covalence_api.port:
     description: "Port that covalence API will run on."
     default: "9201"
+
+  covalence_api.database.type:
+    description: "database type (postgres or mysql)"
+  covalence_api.database.port:
+    description: "database port"
+  covalence_api.database.host:
+    description: "database host"
+  covalence_api.database.username:
+    description: "database username"
+  covalence_api.database.password:
+    description: "database password"
+  covalence_api.database.db:
+    description: "database name"

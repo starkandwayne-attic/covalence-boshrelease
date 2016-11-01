@@ -1,6 +1,6 @@
 ---
 name: covalence
-dependencies: 
-- python
+dependencies: []
 files:
-- covalence/**/*
+- covalence/*.tar.gz
+- covalence/main

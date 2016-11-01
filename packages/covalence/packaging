@@ -1,13 +1,9 @@
-set -e # exit immediately if a simple command exits with a non-zero status
-set -u # report the usage of uninitialized variables
+set -ex
 
-# Detect # of CPUs so make jobs can be parallelized
-CPUS=$(grep -c ^processor /proc/cpuinfo)
- # Available variables
-# $BOSH_COMPILE_TARGET - where this package & spec'd source files are available
-# $BOSH_INSTALL_TARGET - where you copy/install files to be included in package
-export HOME=/var/vcap
-
-cp -r covalence/ ${BOSH_INSTALL_TARGET}/
-
-
+tar -xzvf covalence/covalence-linux-amd64.tar.gz
+mkdir -p ${BOSH_INSTALL_TARGET}/bin
+cp covalence/main              ${BOSH_INSTALL_TARGET}/bin
+cd covalence-linux-amd64
+cp covalance-api     ${BOSH_INSTALL_TARGET}/bin
+cp covalance-agent   ${BOSH_INSTALL_TARGET}/bin
+cp -R ui             ${BOSH_INSTALL_TARGET}/ui

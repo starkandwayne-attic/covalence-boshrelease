@@ -1,11 +1,11 @@
 ---
 name: covalence_agent
 packages:
-- python
 - covalence
 templates:
   bin/ctl: bin/ctl
   bin/monit_debugger: bin/monit_debugger
+  config/agent.yml.erb: config/agent.yml
   data/properties.sh.erb: data/properties.sh
   helpers/ctl_setup.sh: helpers/ctl_setup.sh
   helpers/ctl_utils.sh: helpers/ctl_utils.sh
@@ -14,8 +14,8 @@ properties:
   covalence_agent.api_url:
     description: "URL on which the Covalence API is listening for agents."
     default: "http://127.0.0.1:9201"
-  covalence_agent.reporting_period:
+  covalence_agent.update_interval:
     description: "Period to wait before reporting another status beacon to the API."
-    default: "5"
+    default: "30"
 
-  
+

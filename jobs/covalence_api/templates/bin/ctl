@@ -17,7 +17,9 @@ case $1 in
     # store pid in $PIDFILE
     echo $$ > $PIDFILE
 
-    exec chpst python /var/vcap/packages/covalence/covalence/api/api.py <%= p('covalence_api.port') %>  >> $LOG_DIR/$JOB_NAME.log 2>&1
+    exec /var/vcap/packages/covalence/bin/covalance-api \
+        -c /var/vcap/jobs/covalence_api/config/api.yml \
+        >> $LOG_DIR/$JOB_NAME.log 2>&1
 
     ;;
 

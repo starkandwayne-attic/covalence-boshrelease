@@ -1,65 +1,9 @@
 ---
-python/click-6.6.tar.gz:
-  object_id: 4d1db9ba-2cf1-4a62-a878-4d3a22e18e39
-  sha: 46ad5b97b5c1899c37e11b652f8f52f5f0b29aef
-  size: 283420
-python/Flask-0.11.1-py2.py3-none-any.whl:
-  object_id: 7d58e116-3ed3-4608-98e5-fd6bf5402977
-  sha: 7ef20343963db01e8931afda74e57dee565c6140
-  size: 80615
-python/itsdangerous-0.24.tar.gz:
-  object_id: a0b734ff-cb95-427f-94e4-3dc7458abbc5
-  sha: 0a6ae9c20cd72e89d75314ebc7b0f390f93e6a0d
-  size: 46541
-python/Jinja2-2.8-py2.py3-none-any.whl:
-  object_id: 29c13c42-cfb7-4796-ad1c-a82511ea754a
-  sha: 7ed6155b057d484586f1bf52fd5f74ae6104bbe9
-  size: 263888
-python/MarkupSafe-0.23.tar.gz:
-  object_id: 8962c54b-4def-4b5c-9c01-a747fe6f3d6f
-  sha: cd5c22acf6dd69046d6cb6a3920d84ea66bdf62a
-  size: 13416
-python/pip-8.1.2-py2.py3-none-any.whl:
-  object_id: ac8fa5e6-598c-4f95-b023-d02bf05e3c30
-  sha: 112a41bf8e06c41420b105c5f702ecc7f53ab6c4
-  size: 1198961
-python/Python-2.7.10.tgz:
-  object_id: 28b31efd-c90a-40ee-bdfe-70d880303871
-  sha: 49089f1f6ab445dc8ace97beeb276095c4c8039b
-  size: 16768806
-python/requests-2.11.1-py2.py3-none-any.whl:
-  object_id: 19664e2f-d101-43e8-885b-3ec899033c41
-  sha: 721d9ab241added22bebe4514194a87cb69880bf
-  size: 514827
-python/setuptools-28.6.0-py2.py3-none-any.whl:
-  object_id: 69abe52e-11b6-45ae-9c98-f4992c8383ea
-  sha: e305a5a97aef274e639207fe2a87d74f14431c8d
-  size: 471924
-python/Werkzeug-0.11.11-py2.py3-none-any.whl:
-  object_id: ac2f0566-ae7b-4fb4-a003-7b93c6acf7d7
-  sha: ecc3c9dc37f284bb0dfe30f33e0c7c8a825b3bfa
-  size: 306997
-python/pip-8.1.2.tar.gz:
-  object_id: e23ab0bb-05d7-469f-806b-84fb707ef649
-  sha: 1c13c247967ec5bee6de5fd104c5d78ba30951c7
-  size: 1140573
-python/setuptools-28.6.1.tar.gz:
-  object_id: b04806ab-2d48-4422-910f-c1f1c2321d2d
-  sha: 2dfb26807b0a18bec4d5e47abd89f7a28fc85e03
-  size: 644746
-python/SQLAlchemy-1.0.15.tar.gz:
-  object_id: 479d0084-885e-4485-84bf-5b26af0acee2
-  sha: b510372c8ee29772b85042dae4f3ba9a1e4d0e2e
-  size: 4776213
-python/Flask-SQLAlchemy-2.1.tar.gz:
-  object_id: de4f1b7e-6e92-4f63-a149-c96de014d808
-  sha: 3542d3f8f562efbff8cfdb4a884abba134bb7d2f
-  size: 95967
-python/pysqlite-2.8.3.tar.gz:
-  object_id: ec30ad1a-6c13-4d90-9ab9-eecacafc25eb
-  sha: 70e6ed5e771b1b584ffe23f93e3eb1ceef44895a
-  size: 80567
-python/sqlite-autoconf-3070603.tar.gz:
-  object_id: 78ead55a-f227-497d-b4c9-251db57d2e60
-  sha: a19e4496e2854e737d55465b77c87e775a362775
-  size: 1720314
+covalence/covalence-linux-amd64.tar.gz:
+  object_id: f09b7a3c-6759-4955-b0db-8bc4652c4387
+  sha: 9b3ad9a7f3f7ba1223cc60edfae1dcadf242f276
+  size: 7395648
+postgres/postgresql-9.4.5.tar.gz:
+  object_id: 62b490e5-0136-439a-94b2-ebc8602529d2
+  sha: 5278d04093f3cb2e00796fae15b2e33406844d01
+  size: 23211720
