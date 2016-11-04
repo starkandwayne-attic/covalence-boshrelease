@@ -3,6 +3,6 @@ set -ex
 tar -xzvf covalence/covalence-linux-amd64.tar.gz
 mkdir -p ${BOSH_INSTALL_TARGET}/bin
 cd covalence-linux-amd64
-cp covalance-api     ${BOSH_INSTALL_TARGET}/bin
-cp covalance-agent   ${BOSH_INSTALL_TARGET}/bin
+cp covalence-api     ${BOSH_INSTALL_TARGET}/bin
+cp covalence-agent   ${BOSH_INSTALL_TARGET}/bin
 cp -R ui             ${BOSH_INSTALL_TARGET}/ui
