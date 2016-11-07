@@ -1,8 +1,8 @@
 ---
 covalence/covalence-linux-amd64.tar.gz:
-  object_id: 3af877de-a8dd-4546-bab2-3b6538ca84b9
-  sha: dff8a277df4fe14ff9ae2559c35c586c9ee85702
-  size: 7391736
+  object_id: 2c27cb24-3d25-49de-94a5-e68757b5e822
+  sha: 137f74180c3aad02e544a1bd8114c0a8568da6e2
+  size: 7293978
 postgres/postgresql-9.4.5.tar.gz:
   object_id: 62b490e5-0136-439a-94b2-ebc8602529d2
   sha: 5278d04093f3cb2e00796fae15b2e33406844d01
